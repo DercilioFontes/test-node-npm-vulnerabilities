@@ -1,4 +1,4 @@
-# Test Docker
+# Test Node and packages vulnerabilities
 
 1. `npm i`
 
