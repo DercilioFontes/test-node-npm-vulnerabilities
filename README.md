@@ -1,7 +1,9 @@
 # Test Docker
 
-```zsh
-docker stop docket-test || true && docker rm parrot-pipeline || true
-docker build --no-cache --force-rm -t account/imagename:tag .
-docker run -it --name docket-test --entrypoint=/bin/bash account/imagename:tag
-```
+1. `npm i`
+
+2. `./run.sh`
+
+3. Inside the container, `./test.sh`
+
+Note: You need Docker Desktop
